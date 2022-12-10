@@ -68,13 +68,13 @@ button:hover {
 
 
 .pic1{
-    border: 3px solid black;
+    border: 1px solid black;
     height: 500px;
     width: 80%;
 }
 
 .pic2{
-    border: 3px solid black;
+    border: 1px solid black;
     height: 565px;
     width: 80%;
     position: relative;
@@ -168,8 +168,10 @@ hr{
 .c2{
     position: relative;
     right: 250px;
+    color: rgb(95, 84, 84);
     
 }
+
 
 .ul3{
     position: relative;
@@ -203,9 +205,6 @@ hr{
     border: 1px solid black;
 }
 
-.pro img{
-    width: 100%;
-}
 
 .pro_x{
     width: 23%;
@@ -216,17 +215,126 @@ hr{
 
 .pro img{
     width: 100%;
-    height: 100%;
 }
 
 
 .sec_4{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 40px 50px;
+    position: relative;
+    right: 90px;
+}
+.sec_5{
+    padding: 20px 50px;
 }
 
 .sec_5 p{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
+}
+
+.sec_6{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    position: relative;
+    right: 150px;
+}
+
+.sec_6 p{
+    color:rgb(95, 84, 84);
+}
+
+.line_2{
+    color: #000;
+    width: 90%;
+    position: relative;
+    top: 50px;
+}
+
+.cta3 button{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.d_1 button{
+    border-radius: 3pc;
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: black;
+}
+
+.sec_7{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 50px;
+    position: relative;
+    right: 70px;
+}
+
+.sec_7 img{
+    width: 40%;
+    border: 1px solid black;
+}
+.d_1{
+    width: 40%;
+}
+.d_1 p{
+    color:rgb(95, 84, 84);
+}
+
+.d_1 img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: white;
+    color: #000;
+    height: 400px;
+    position: relative;
+}
+
+footer .con{
+    height: 350px;
+    display: flex;
+}
+
+
+
+.copy{
+    background-color: white;
+    color:rgb(95, 84, 84);
+    height: 50px;
+    width: 100%;
+    text-decoration: center;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+    padding-top: 20px;  
+}
+
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con p{
+    color:rgb(95, 84, 84);
+}
+
+.con li{
+    display:grid;
+}
+
+.f3 li{
+    position: relative;
+    right: 40px;
+}
+
+.f4 li{
+    position: relative;
+    right: 40px;
 }
